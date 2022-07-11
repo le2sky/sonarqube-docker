@@ -85,7 +85,7 @@ docker run --name sonarqube -d -p 9000:9000 sonarqube:latest
 ## 6. command
 
 ```sh
-# 빌드
+# 빌드 (빌드 과정 중 테스트 진행)
 ./gradlew clean build --info
 
 # Jacoco 코드 커버리지 측정, 리포트 작성
